@@ -2,25 +2,32 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <link href="style.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link href="static/style/style.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet" />
         <title>My Portfolio</title>
     </head>
 
     <body>
-        <nav>
-            <ul>
-                <li><a href="#HOME">Home</a></li>
-                <li><a href="#ABOUT">About</a></li>
-                <li><a href="#SKILL">Skills</a></li>
-                <li><a href="#PROJECTS">Projects</a></li>
-                <li><a href="">Contact</a></li>
+        <nav class="navbar fixed-top navbar-expand-lg d-flex justify-content-end">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#HOME">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#ABOUT">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#SKILL">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#PROJECTS">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="">Contact</a></li>
             </ul>
-            <div class="switch-theme">
-
+            <div class="switch-theme nav-link">
+                <div class="sun"></div>
+                <div class="custom-control custom-switch">
+                    <input type="checkbox" class="custom-control-input" id="customSwitch1">
+                    <label class="custom-control-label" for="customSwitch1"></label>
+                </div>
+                <div class="moon"></div>
             </div>
         </nav>
 
-        <div class="HOME">
+        <div class="home">
             <h1>Hello ! <span class="emoji"></span></h1>
             <p>
                 i'm Pilna, a student developper software engineer focused

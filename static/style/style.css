@@ -1,0 +1,21 @@
+body{
+    font-family: "Aercu";
+}
+
+.sun{
+    width: 17px;
+    height: 17px;
+    background: url("../img/sun.svg") no-repeat center;
+    background-size: 100%;
+}
+
+.moon{
+   width: 17px;
+   height: 17px;
+   background: url("../img//moon.svg") no-repeat center;
+   background-size: 100%; 
+}
+
+.home{
+    height: 100vh;
+}
