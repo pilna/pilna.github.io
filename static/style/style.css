@@ -59,3 +59,7 @@ nav{
 .resume{
     margin-left: 0.25em;
 }
+
+.p-container{
+    max-width: 650px;
+}
