@@ -67,3 +67,19 @@ nav{
 .table-container{
     max-width: 650px;
 }
+
+.project-list{
+    max-width: 650px;
+}
+
+.music-note{
+    background: url("../img/musicNote.svg") no-repeat center;
+    width: 17px;
+    height: 17px;
+}
+
+.coffee{
+    background: url("../img/coffee.svg") no-repeat center;
+    width: 17px;
+    height: 17px;
+}
