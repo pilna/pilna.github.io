@@ -1,5 +1,6 @@
 body{
-    font-family: "Aercu";
+    font-family: "Source Sans Pro", sans-serif;
+    margin: 0 5%;
 }
 
 .sun{
@@ -7,15 +8,54 @@ body{
     height: 17px;
     background: url("../img/sun.svg") no-repeat center;
     background-size: 100%;
+    margin: 0 7px
 }
 
 .moon{
    width: 17px;
    height: 17px;
    background: url("../img//moon.svg") no-repeat center;
-   background-size: 100%; 
+   background-size: 100%;
+}
+
+.home, .about, .skills{
+    height: 100vh;
 }
 
 .home{
-    height: 100vh;
+    font-size: 2.5rem;
+    max-width: 900px;
+    padding: 120px 100px;
+}
+
+h2{
+    font-size: 1.25rem;
+}
+
+nav{
+    margin: 0 5%;
+    font-size: 1.25rem;
+}
+
+.test{
+    align-items: center;
+}
+
+.waving-hand{
+    margin-left: 10px;
+}
+
+.arrow{
+    margin-left: 0.25em;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.arrow:hover{
+    transform: translateX(5px);
+    text-decoration: none;
+}
+
+.resume{
+    margin-left: 0.25em;
 }

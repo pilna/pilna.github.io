@@ -5,7 +5,9 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <link href="static/style/style.css" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
         <title>My Portfolio</title>
+        <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     </head>
 
     <body>
@@ -17,9 +19,9 @@
                 <li class="nav-item"><a class="nav-link" href="#PROJECTS">Projects</a></li>
                 <li class="nav-item"><a class="nav-link" href="">Contact</a></li>
             </ul>
-            <div class="switch-theme nav-link">
+            <div class="switch-theme nav-link d-flex test">
                 <div class="sun"></div>
-                <div class="custom-control custom-switch">
+                <div class="custom-control custom-switch d-flex">
                     <input type="checkbox" class="custom-control-input" id="customSwitch1">
                     <label class="custom-control-label" for="customSwitch1"></label>
                 </div>
@@ -27,16 +29,16 @@
             </div>
         </nav>
 
-        <div class="home">
-            <h1>Hello ! <span class="emoji"></span></h1>
+        <div class="home d-flex justify-content-around flex-column">
+            <h1>Hello !<span class="iconify waving-hand" data-icon="emojione-waving-hand" data-inline="false"></span></h1>
             <p>
-                i'm Pilna, a student developper software engineer focused
-                on produce beautiful and scalable code architecture.
+                i'm <span class="font-weight-bold">Pilna</span>, a student developper software engineer focused
+                on produce beautiful and scalable code architecture 💻
             </p>
-            <h2>get my <span>resume</span></h2>
+            <h2 class="d-flex align-items-center">get my<span class="resume font-weight-bold">resume</span><a class="arrow" href="#">➜</a></h2>
         </div>
 
-        <div class="About">
+        <div class="about">
             <h1 class="section-title">About</h1>
             <div>
                 <p>
@@ -51,13 +53,13 @@
                 </p>
 
                 <p>
-                    <span>When i'm not in front of my computer screen</span>, I'm probably practice sport,
-                    eat some interesting food or talk with my friend.
+                    <span>When i'm not in front of my computer screen</span>, I'm probably practicing sport,
+                    eating some interesting food or talk with my friend.
                 </p>
             </div>
         </div>
 
-        <div class="SKILL">
+        <div class="skills">
             <h2>Skills</h2>
             <div>
                 <table>
@@ -116,7 +118,7 @@
             </div>
         </div>
 
-        <div class="PROJECTS">
+        <div class="projects">
             <h2>Projects</h2>
             <div class="projects-container">
 
