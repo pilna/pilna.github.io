@@ -13,11 +13,11 @@
     <body>
         <nav class="navbar fixed-top navbar-expand-lg d-flex justify-content-end">
             <ul class="navbar-nav">
-                <li class="nav-item"><a class="nav-link" href="#HOME">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#ABOUT">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="#SKILL">Skills</a></li>
-                <li class="nav-item"><a class="nav-link" href="#PROJECTS">Projects</a></li>
-                <li class="nav-item"><a class="nav-link" href="">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
             </ul>
             <div class="switch-theme nav-link d-flex test">
                 <div class="sun"></div>
@@ -29,7 +29,7 @@
             </div>
         </nav>
 
-        <div class="home d-flex justify-content-around flex-column">
+        <div id="home" class="home d-flex justify-content-around flex-column">
             <h1>Hello !<span class="iconify waving-hand" data-icon="emojione-waving-hand" data-inline="false"></span></h1>
             <p>
                 i'm <span class="font-weight-bold">Pilna</span>, a student developper software engineer focused
@@ -38,7 +38,7 @@
             <h2 class="d-flex align-items-center">get my<span class="resume font-weight-bold">resume</span><a class="arrow" href="#">➜</a></h2>
         </div>
 
-        <div class="about row align-items-center">
+        <div id="about" class="about row align-items-center">
             <div class="about-container row col">
                 <h1 class="section-title col-4 text-right pr-5">About</h1>
                 <div class="p-container col-8">
@@ -61,66 +61,68 @@
             </div>
         </div>
 
-        <div class="skills">
-            <h2>Skills</h2>
-            <div>
-                <table>
-                    <thead>
-                        <tr>
-                            <td>Language</td>
-                            <td>Framework</td>
-                            <td>Tools</td>
-                        </tr>
-                    </thead>
+        <div id="skills" class="skills">
+            <div class="skills-container">
+                <h2>Skills</h2>
+                <div>
+                    <table>
+                        <thead class="font-weight-bold">
+                            <tr>
+                                <td>Language</td>
+                                <td>Framework</td>
+                                <td>Tools</td>
+                            </tr>
+                        </thead>
 
-                    <tbody>
-                        <tr>
-                            <td>Python</td>
-                            <td>React</td>
-                            <td>Visual Studio Code</td>
-                        </tr>
+                        <tbody>
+                            <tr>
+                                <td>Python</td>
+                                <td>React</td>
+                                <td>Visual Studio Code</td>
+                            </tr>
 
-                        <tr>
-                            <td>JavaScript (ES6)</td>
-                            <td>Node</td>
-                            <td>Postman</td>
-                        </tr>
+                            <tr>
+                                <td>JavaScript (ES6)</td>
+                                <td>Node</td>
+                                <td>Postman</td>
+                            </tr>
 
-                        <tr>
-                            <td>Html, Css</td>
-                            <td>Bootstrap</td>
-                            <td>git & github</td>
-                        </tr>
+                            <tr>
+                                <td>Html, Css</td>
+                                <td>Bootstrap</td>
+                                <td>git & github</td>
+                            </tr>
 
-                        <tr>
-                            <td>Java</td>
-                            <td>Materialized</td>
-                            <td>PowerShell</td>
-                        </tr>
+                            <tr>
+                                <td>Java</td>
+                                <td>Materialized</td>
+                                <td>PowerShell</td>
+                            </tr>
 
-                        <tr>
-                            <td>SQl</td>
-                            <td>Express</td>
-                            <td>lucidChart</td>
-                        </tr>
+                            <tr>
+                                <td>SQl</td>
+                                <td>Express</td>
+                                <td>lucidChart</td>
+                            </tr>
 
-                        <tr>
-                            <td>TypeScript</td>
-                            <td>nestJS</td>
-                            <td>Firefox devTools</td>
-                        </tr>
+                            <tr>
+                                <td>TypeScript</td>
+                                <td>nestJS</td>
+                                <td>Firefox devTools</td>
+                            </tr>
 
-                        <tr>
-                            <td>C / C++</td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                    </tbody>
-                </table>
+                            <tr>
+                                <td>C / C++</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
 
-        <div class="projects">
+        <div id="projects" class="projects">
             <h2>Projects</h2>
             <div class="projects-container">
 
@@ -128,7 +130,7 @@
         </div>
 
         <footer>
-            <div class="CONTACT">
+            <div id="contact" class="contact">
 
             </div>
 
