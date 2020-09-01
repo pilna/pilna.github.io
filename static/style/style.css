@@ -1,6 +1,15 @@
+.light-theme{
+    --bgColor: #007bff;
+}
+
+.dark-theme{
+    --bgColor: #ffffff;
+}
+
 body{
     font-family: "Source Sans Pro", sans-serif;
     margin: 0 5%;
+    background-color: var(--bgColor);
 }
 
 .sun{
