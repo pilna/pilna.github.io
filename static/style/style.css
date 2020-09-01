@@ -1,30 +1,30 @@
 .light-theme{
-    --bgColor: #007bff;
+    --bgColor: #ffffff;
+    --fontColor: #17223b;
+    --importantFontColor: #f54291;
 }
 
 .dark-theme{
-    --bgColor: #ffffff;
+    --bgColor: #17223b;
+    --fontColor: #ffffff;
+    --importantFontColor: #ff6768;
 }
 
 body{
     font-family: "Source Sans Pro", sans-serif;
     margin: 0 5%;
     background-color: var(--bgColor);
+    color: var(--fontColor);
 }
 
 .sun{
-    width: 17px;
-    height: 17px;
-    background: url("../img/sun.svg") no-repeat center;
-    background-size: 100%;
     margin: 0 7px
 }
 
-.moon{
+.moon, .sun{
    width: 17px;
    height: 17px;
-   background: url("../img//moon.svg") no-repeat center;
-   background-size: 100%;
+   fill:var(--fontColor);
 }
 
 .home, .about, .skills{
@@ -44,6 +44,7 @@ h2{
 nav{
     margin: 0 5%;
     font-size: 1.25rem;
+    background-color: var(--bgColor);
 }
 
 .test{
@@ -58,6 +59,7 @@ nav{
     margin-left: 0.25em;
     font-size: 2rem;
     text-decoration: none;
+    color: var(--importantFontColor);
 }
 
 .arrow:hover{
@@ -82,16 +84,10 @@ nav{
     max-width: 650px;
 }
 
-.music-note{
-    background: url("../img/musicNote.svg") no-repeat center;
+.coffee, .music-note{
     width: 17px;
     height: 17px;
-}
-
-.coffee{
-    background: url("../img/coffee.svg") no-repeat center;
-    width: 17px;
-    height: 17px;
+    fill: var(--importantFontColor);
 }
 
 .contact{
@@ -102,6 +98,7 @@ nav{
     letter-spacing: 5px;
     text-transform: uppercase;
     font-size: 1.75rem;
+    color: var(--importantFontColor);
 }
 
 .tag{
@@ -109,8 +106,8 @@ nav{
     font-weight: 700;
     padding: 2px 7px;
     border-radius: 3px;
-    color: #007bff;
-    border: 2px solid #007bff;
+    color: var(--importantFontColor);
+    border: 2px solid var(--importantFontColor);
 }
 
 .project-description{
@@ -120,4 +117,12 @@ nav{
 
 .projects{
     padding-top: 20vh;
+}
+
+a{
+    color: var(--importantFontColor);
+}
+
+.table{
+    color: var(--fontColor);
 }
