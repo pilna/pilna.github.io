@@ -65,6 +65,8 @@ nav{
 .arrow:hover{
     transform: translateX(5px);
     text-decoration: none;
+    color: var(--importantFontColor);
+    filter: brightness(100%);
 }
 
 .resume{
@@ -125,4 +127,9 @@ a{
 
 .table{
     color: var(--fontColor);
+}
+
+a:hover{
+    color: var(--importantFontColor);
+    filter: brightness(60%);    
 }
