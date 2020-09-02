@@ -47,14 +47,6 @@ nav{
     background-color: var(--bgColor);
 }
 
-.test{
-    align-items: center;
-}
-
-.waving-hand{
-    margin-left: 10px;
-}
-
 .arrow{
     margin-left: 0.25em;
     font-size: 2rem;
@@ -67,10 +59,6 @@ nav{
     text-decoration: none;
     color: var(--importantFontColor);
     filter: brightness(100%);
-}
-
-.resume{
-    margin-left: 0.25em;
 }
 
 .p-container{
@@ -131,7 +119,8 @@ a{
 
 a:hover{
     color: var(--importantFontColor);
-    filter: brightness(60%);    
+    filter: brightness(60%);
+    text-decoration: none;   
 }
 
 .custom-control-input {
