@@ -133,3 +133,8 @@ a:hover{
     color: var(--importantFontColor);
     filter: brightness(60%);    
 }
+
+.custom-control-input {
+  outline: none;
+  box-shadow: none;
+}

@@ -12,4 +12,18 @@ function switchTheme() {
 	} else {
 		setTheme('dark-theme');
 	}
+
+	document.getElementById('customSwitch1').blur();
 }
+
+function initTheme() {
+	const isDarkTheme = document.getElementById('customSwitch1').checked;
+
+	if (isDarkTheme) {
+		setTheme('dark-theme');
+	} else {
+		setTheme('light-theme');
+	}
+}
+
+initTheme();
