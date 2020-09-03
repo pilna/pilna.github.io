@@ -98,6 +98,7 @@ nav{
     border-radius: 3px;
     color: var(--importantFontColor);
     border: 2px solid var(--importantFontColor);
+    text-transform: uppercase;
 }
 
 .project-description{
