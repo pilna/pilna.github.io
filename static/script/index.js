@@ -27,3 +27,4 @@ function initTheme() {
 }
 
 initTheme();
+AOS.init();
