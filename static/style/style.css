@@ -132,3 +132,7 @@ a:hover{
   outline: none;
   box-shadow: none;
 }
+
+footer {
+    margin-top: 20rem;
+}
