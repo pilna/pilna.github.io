@@ -1,5 +1,6 @@
 html{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 .light-theme{
@@ -112,6 +113,7 @@ nav{
 
 .projects{
     padding-top: 20vh;
+    margin: 0;
 }
 
 a{
