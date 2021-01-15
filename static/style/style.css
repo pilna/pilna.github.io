@@ -7,12 +7,16 @@ html {
     --bgColor: #ffffff;
     --fontColor: #17223b;
     --importantFontColor: #f54291;
+    --colorMenu: rgba(245,66,145, 0.8);
+    --urlMenu: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(245,66,145, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
 .dark-theme {
     --bgColor: #17223b;
     --fontColor: #ffffff;
     --importantFontColor: #ff6768;
+    --colorMenu: rgba(255,103,104, 0.8);
+    --urlMenu: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,103,104, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
 body {
@@ -140,11 +144,11 @@ a:hover {
 }
 
 .navbar-toggler {
-    border-color: var(--importantFontColor);
+    border-color: var(--colorMenu);
 }
 
 .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    background-image: var(--urlMenu);
 }
 
 footer {
