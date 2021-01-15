@@ -50,6 +50,10 @@ h2 {
     font-size: 1.25rem;
 }
 
+.fixed-top {
+    width: 100vw;
+}
+
 nav {
     margin: 0;
     font-size: 1.1rem;
