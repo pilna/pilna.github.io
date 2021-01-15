@@ -1,103 +1,107 @@
-html{
+html {
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
 
-.light-theme{
+.light-theme {
     --bgColor: #ffffff;
     --fontColor: #17223b;
     --importantFontColor: #f54291;
 }
 
-.dark-theme{
+.dark-theme {
     --bgColor: #17223b;
     --fontColor: #ffffff;
     --importantFontColor: #ff6768;
 }
 
-body{
+body {
     font-family: "Source Sans Pro", sans-serif;
     margin: 0 5%;
     background-color: var(--bgColor);
     color: var(--fontColor);
 }
 
-.sun{
+.sun {
     margin: 0 7px
 }
 
-.moon, .sun{
+.moon, .sun {
    width: 17px;
    height: 17px;
    fill:var(--fontColor);
 }
 
-.home, .about, .skills{
+.home, .about, .skills {
     height: 100vh;
 }
 
-.home{
-    font-size: 2.5rem;
+.home {
+    font-size: 2.5vw;
     max-width: 900px;
     padding: 120px 100px;
 }
 
-h2{
-    font-size: 1.25rem;
+h2 {
+    font-size: 1.25vw;
 }
 
-nav{
+nav {
     margin: 0 5%;
-    font-size: 1.25rem;
+    font-size: 1.25vw;
     background-color: var(--bgColor);
 }
 
-.arrow{
+h1 {
+    font-size: 2.5vw;
+}
+
+.arrow {
     margin-left: 0.25em;
-    font-size: 2rem;
+    font-size: 2vw;
     text-decoration: none;
     color: var(--importantFontColor);
 }
 
-.arrow:hover{
+.arrow:hover {
     transform: translateX(5px);
     text-decoration: none;
     color: var(--importantFontColor);
     filter: brightness(100%);
 }
 
-.p-container{
+.p-container {
     max-width: 650px;
     font-size: 1.1rem;
 }
 
-.table-container{
+.table-container {
     max-width: 650px;
 }
 
-.project-list{
+.project-list {
     max-width: 650px;
 }
 
-.coffee, .music-note{
+.coffee, .music-note {
     width: 17px;
     height: 17px;
     fill: var(--importantFontColor);
 }
 
-.contact{
-    font-size: 1rem;
+.contact {
+    font-size: 1vw;
 }
 
-.section-title{
+.section-title {
     letter-spacing: 5px;
     text-transform: uppercase;
-    font-size: 1.75rem;
+    font-size: 1.75vw;
     color: var(--importantFontColor);
 }
 
-.tag{
-    font-size: .75rem;
+.tag {
+    font-size: .75vw;
     font-weight: 700;
     padding: 2px 7px;
     border-radius: 3px;
@@ -106,25 +110,25 @@ nav{
     text-transform: uppercase;
 }
 
-.project-description{
+.project-description {
     line-height: 1.5;
     margin-bottom: 0;
 }
 
-.projects{
+.projects {
     padding-top: 20vh;
     margin: 0;
 }
 
-a{
+a {
     color: var(--importantFontColor);
 }
 
-.table{
+.table {
     color: var(--fontColor);
 }
 
-a:hover{
+a:hover {
     color: var(--importantFontColor);
     filter: brightness(60%);
     text-decoration: none;   
