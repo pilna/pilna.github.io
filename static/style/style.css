@@ -83,7 +83,7 @@ h1 {
     max-width: 650px;
 }
 
-.coffee, .music-note {
+.coca, .music-note {
     width: 17px;
     height: 17px;
     fill: var(--importantFontColor);
