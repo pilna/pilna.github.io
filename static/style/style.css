@@ -158,8 +158,6 @@ footer {
 @media screen and (max-width: 768px) {
     .home {
         font-size: 1.5rem;
-        max-width: 300px;
-        padding: 40px 30px;
     }
     .home h1 {
         font-size: 1.5rem;
@@ -176,5 +174,10 @@ footer {
 @media screen and (max-width: 460px) {
     .tag {
         font-size: 0.5rem;
+    }
+    .home {
+        font-size: 1.5rem;
+        max-width: 300px;
+        padding: 40px 30px;
     }
 }
