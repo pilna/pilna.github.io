@@ -26,5 +26,10 @@ function initTheme() {
 	}
 }
 
+function setCurrentYear() {
+	document.getElementById("year").innerHTML = new Date().getFullYear();
+}
+
+setCurrentYear();
 initTheme();
 AOS.init();
